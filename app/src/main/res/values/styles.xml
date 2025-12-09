@@ -1,0 +1,32 @@
+<resources>
+
+    <style name="Widget.App.GlassyCard" parent="CardView">
+        <item name="cardBackgroundColor">@color/glassy_background_light</item>
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">4dp</item>
+    </style>
+
+    <style name="Widget.App.CoolInput" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/normal_primary</item>
+        <item name="hintTextColor">@color/normal_primary</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="Widget.App.BeautifulButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/normal_primary</item>
+        <item name="cornerRadius">24dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="rippleColor">@color/glassy_border</item>
+    </style>
+
+    <style name="Widget.App.Button.Success" parent="Widget.App.BeautifulButton">
+        <item name="backgroundTint">@color/accent_green</item>
+    </style>
+
+    <style name="InputTextDark" parent="Widget.AppCompat.EditText">
+        <item name="android:textColor">@color/text_dark</item>
+    </style>
+</resources>
